@@ -1,19 +1,24 @@
 <!DOCTYPE html>
-<html>
+
+
 <head>
   <title>Sellyourfriends</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
+
 <body>
 
 <%= render 'Layouts/header' %>
 
 <div class="container">
-	<%= yield %>
-	<%= render 'Layouts/footer' %>
+	
+<%= yield %>
+
+<%= render 'Layouts/footer' %>
+
 </div>
 
 </body>
-</html>
+
