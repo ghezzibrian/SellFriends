@@ -1,5 +1,6 @@
 @import "bootstrap";
 
+
 body {
 	background-color: #F8F8F8;
 	color: #333333;
@@ -45,5 +46,12 @@ body {
 	p {
 		font-size: 14px;
 		margin: 0px;
+		}
+}
+
+.jumbotron {
+	background-image: url('homepage.jpg');
+	h1,h2 {
+		font-family: guardian-egyptt, georgia, serif;
 		}
 }
