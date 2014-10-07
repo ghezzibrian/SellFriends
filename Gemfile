@@ -15,7 +15,7 @@ gem "paperclip", "~> 4.1"
 gem "paperclip-dropbox", ">= 1.1.7"
 gem "figaro"
 gem 'devise' 
-gem 'stripe'
+#gem 'stripe'
 
 group :production do
 	gem 'pg'
@@ -28,3 +28,5 @@ end
 
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
+
+gem something
